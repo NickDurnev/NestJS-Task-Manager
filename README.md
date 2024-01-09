@@ -22,9 +22,20 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+# Task Manager REST API
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This repository contains the source code for the Task Manager REST API project. It is built with Node.js, NestJS, TypeORM, PostgreSQL and other dependencies listed in `package.json`.
+The API is used to access and manipulate data related to tasks and users. It consists of several endpoints that allow you to perform CRUD operations on tasks and authenticate users.
+
+## Technologies Used
+
+- NestJS
+- TypeORM
+- PostgreSQL
+- Jimp
+- Bcrypt
+- Passport-JWT
+- Joi
 
 ## Installation
 
@@ -57,17 +68,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
